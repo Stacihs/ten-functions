@@ -40,9 +40,10 @@ function not(input) {
 // }
 
 function isEven(input) {
-    if (input % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return (input % 2 === 0);
 }
+
+function isIdentical(item1, item2) {
+    return (item1 === item2);
+}
+
