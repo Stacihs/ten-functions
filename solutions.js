@@ -33,11 +33,9 @@ function not(input) {
     return !input;
 }
 
-// function addOne(input) {
-//     if (!isNaN(input)) {
-//         return input++;
-//     }
-// }
+function addOne(input) {
+    return Number(input) + 1;
+}
 
 function isEven(input) {
     return (input % 2 === 0);
@@ -62,3 +60,4 @@ function and(input1, input2) {
 function concat(input1, input2) {
     return input1.toString() + input2.toString();
 }
+
